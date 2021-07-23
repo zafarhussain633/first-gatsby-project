@@ -1,0 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Futura PT;
+  src: url("./font/FuturaPT-MediumObl.eot");
+}
+
+h1,
+h2,
+h3,
+p,
+i,
+b,
+div {
+  font: Futura PT;
+}
