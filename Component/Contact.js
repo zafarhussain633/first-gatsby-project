@@ -30,34 +30,34 @@ const Contact = () => {
       <form>
         <GridContainer>
           <div className="mt-3 mx-3">
-            <label className="m-1">
+            <label  htmlFor="name" className="m-1">
               <b>Name</b>
             </label>
             <div>
-              <input type="text" className="w-100 p-2" height="75px" />
+              <input type="text" className="w-100 p-2" height="75px"  name="name" />
             </div>
           </div>
           <div className="mt-3 mx-3">
-            <label className="m-1">
+            <label  htmlFor="email" className="m-1">
               <b>Email</b>
             </label>
             <div>
-              <input type="email" className="w-100 p-2" />
+              <input type="email" name="email" className="w-100 p-2" />
             </div>
           </div>
         </GridContainer>
 
         <div className={`mt-3 mx-3`}>
-          <label className="m-1">
+          <label  htmlFor="phone" className="m-1">
             <b>phone</b>
           </label>
           <div>
-            <input type="phone" className="w-100 p-2" />
+            <input type="phone" name="phone" className="w-100 p-2" />
           </div>
         </div>
 
         <div className={`mt-3 mx-3`}>
-          <label className="m-1">
+          <label  htmlFor="textarea" className="m-1">
             <b>How can i help you ?</b>
           </label>
           <div>

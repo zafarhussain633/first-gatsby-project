@@ -150,28 +150,28 @@ function Form({ title, btnText, displayPhone }) {
     <>
       <h2 className="text-center mt-3">{title}</h2>
       <div className="mt-3">
-        <label className="m-1">
+        <label  htmlFor="name" className="m-1">
           <b>Name</b>
         </label>
         <div>
-          <input type="text" className="w-100 p-2" height="75px" />
+          <input type="text" className="w-100 p-2" height="75px" name="name" />
         </div>
       </div>
       <div className="mt-3">
-        <label className="m-1">
+        <label  htmlFor="email" className="m-1">
           <b>Email</b>
         </label>
         <div>
-          <input type="email" className="w-100 p-2" />
+          <input type="email" className="w-100 p-2" name="email" />
         </div>
       </div>
 
       <div className={`mt-3 ${displayPhone}`}>
-        <label className="m-1">
+        <label   htmlFor="phone" className="m-1">
           <b>phone</b>
         </label>
         <div>
-          <input type="phone" className="w-100 p-2" />
+          <input type="phone" className="w-100 p-2" name="phone" />
         </div>
       </div>
       <button className="btn btn-danger p-2 mt-3 w-100">{btnText}</button>
